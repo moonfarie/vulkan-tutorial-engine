@@ -1,5 +1,6 @@
 #pragma once
 
+#include "pipeline.hpp"
 #include "window.hpp"
 
 namespace cfd {
@@ -13,6 +14,7 @@ class App {
 
  private:
   Window window_;
+  render::Pipeline pipeline{"shaders/shader.vert.spv", "shaders/shader.frag.spv"};
 };
 
 }  // namespace cfd
