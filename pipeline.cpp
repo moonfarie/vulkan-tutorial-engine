@@ -5,7 +5,7 @@
 #include "device.hpp"
 #include "utilities.hpp"
 
-namespace cfd {
+namespace engine {
 
 namespace render {
 
@@ -186,4 +186,4 @@ void Pipeline::create_shader_module(const std::vector<char>& code,
 
 }  // namespace render
 
-}  // namespace cfd
+}  // namespace engine

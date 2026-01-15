@@ -1,14 +1,14 @@
 #pragma once
 
+#include <vulkan/vulkan.h>
+
+#include <cstdint>
 #include <string>
 #include <vector>
 
-#define GLFW_INCLUDE_VULKAN
-#include <GLFW/glfw3.h>
-
 #include "window.hpp"
 
-namespace cfd {
+namespace engine {
 
 namespace render {
 
@@ -104,4 +104,4 @@ class Device {
 
 }  // namespace render
 
-}  // namespace cfd
+}  // namespace engine

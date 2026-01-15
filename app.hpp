@@ -6,7 +6,7 @@
 #include "pipeline.hpp"
 #include "window.hpp"
 
-namespace cfd {
+namespace engine {
 
 class App {
  public:
@@ -25,4 +25,4 @@ class App {
                             "shaders/shader.frag.spv"};
 };
 
-}  // namespace cfd
+}  // namespace engine

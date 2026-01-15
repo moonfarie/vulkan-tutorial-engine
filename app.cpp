@@ -1,6 +1,6 @@
 #include "app.hpp"
 
-namespace cfd {
+namespace engine {
 
 App::App(uint32_t width, uint32_t height, const std::string& title)
     : width_(width), height_(height), window_(width_, height_, title) {}
@@ -11,4 +11,4 @@ void App::run() const {
   }
 }
 
-}  // namespace cfd
+}  // namespace engine

@@ -1,13 +1,12 @@
 #pragma once
 
+#include <vulkan/vulkan.h>
+
 #include <cstdint>
 #include <filesystem>
 #include <vector>
 
-#define GLFW_INCLUDE_VULKAN
-#include <GLFW/glfw3.h>
-
-namespace cfd {
+namespace engine {
 
 namespace render {
 
@@ -54,4 +53,4 @@ class Pipeline {
 
 }  // namespace render
 
-}  // namespace cfd
+}  // namespace engine

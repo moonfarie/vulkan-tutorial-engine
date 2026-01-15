@@ -5,7 +5,7 @@
 #define GLFW_INCLUDE_VULKAN
 #include <GLFW/glfw3.h>
 
-namespace cfd {
+namespace engine {
 
 class Window {
  public:
@@ -29,4 +29,4 @@ class Window {
   GLFWwindow* window_{nullptr};
 };
 
-}  // namespace cfd
+}  // namespace engine

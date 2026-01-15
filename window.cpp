@@ -3,7 +3,7 @@
 #include <cassert>
 #include <stdexcept>
 
-namespace cfd {
+namespace engine {
 
 Window::Window(int width, int height, const std::string& title)
     : width_(width), height_(height), title_(title) {
@@ -45,4 +45,4 @@ void Window::init() {
   }
 }
 
-}  // namespace cfd
+}  // namespace engine

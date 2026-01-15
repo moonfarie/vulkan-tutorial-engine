@@ -4,7 +4,7 @@
 #include "app.hpp"
 
 int main() {
-  cfd::App app(800, 600, "CFD");
+  engine::App app(800, 600, "Vulkan Tutorial Engine");
 
   try {
     app.run();
